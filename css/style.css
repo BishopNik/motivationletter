@@ -1,0 +1,116 @@
+/** @format */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e9f5e9;
+	padding: 40px;
+	font-style: normal;
+	color: black;
+}
+
+/*Full*/
+.full {
+	display: flex;
+	flex-direction: row-reverse;
+	background: ivory;
+	width: 1200px;
+	margin: 0 auto;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Right*/
+.right {
+	padding: 88px;
+}
+
+/*o mne*/
+.my-prof {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #c11414;
+	margin: 0 0 18px 0;
+}
+
+.name {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 55px;
+	margin: 0 0 100px 0;
+}
+
+/* about */
+.about {
+	text-align: justify;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	width: 685px;
+	margin: 0 0 28px 0;
+}
+
+.add {
+	font-weight: 700;
+}
+
+/*Left*/
+.left {
+	width: 370px;
+	background: lemonchiffon;
+	padding-bottom: 50px;
+}
+
+.url-list {
+	padding: 0 0 0 18px;
+	margin: 0;
+}
+
+.photo {
+	margin-top: 80px;
+}
+
+.contact {
+	margin: 48px 0px 0px 48px;
+}
+
+.sidebar-title {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: black;
+	margin-bottom: 16px;
+}
+
+.contact-style {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+	width: 20px;
+}
+
+.contacs-sp {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	column-gap: 12px;
+	margin: 0;
+	margin-bottom: 6px;
+	padding: 0;
+}
+
+.contact-text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+	text-decoration: none;
+}
+
+.contact-text:hover {
+	color: #4250b2;
+	text-decoration: underline;
+}
